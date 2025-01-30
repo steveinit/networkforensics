@@ -1,7 +1,7 @@
 # Sniffs ARPs for 50 lines
 import scapy.all as scapy
 
-interface = "interface" # replace interface with hardware (eth0|wlan0|etc)
+interface = "eth0" # replace with interface of your hardware (eth0|wlan0|etc)
 packets_to_sniff = 1
 
 def print_packet(pkt):
